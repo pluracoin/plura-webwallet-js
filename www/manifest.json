@@ -1,6 +1,6 @@
 {
-  "name": "Karbo Web Wallet",
-  "short_name": "KarboWallet",
+  "name": "PLURA Web Wallet",
+  "short_name": "PLURA Wallet",
   "icons": [{
 	"src": "assets/img/icons/icon-128x128.png",
 	"sizes": "128x128",
@@ -20,6 +20,10 @@
   }, {
 	"src": "assets/img/icons/icon-256x256.png",
 	"sizes": "256x256",
+	"type": "image/png"
+  }, {
+	"src": "assets/img/icons/icon-402x402.png",
+	"sizes": "402x402",
 	"type": "image/png"
   }],
   "start_url": "/index.html",

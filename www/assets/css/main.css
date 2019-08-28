@@ -136,7 +136,12 @@ body.menuHidden #menu {
 }
 
 #menu{
-	background: #30466C;
+	/*background: #30466C;*/
+	background-image: url(../img/bg/menu_bg.png);
+	background-image: url(../img/bg/menu_bg.png);
+	background-image: url(../img/bg/menu_bg.png);
+	background-position: center right;
+	background-size: cover;
 	color: white;
 	padding:10px 15px;
 }
@@ -490,12 +495,12 @@ body.transparent #copyright{
 .indexTab .mainBlock{
 	min-height:90vh;
 	position: relative;
-	text-align: center;
-	background-image: -webkit-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/balancing.jpg);
-	background-image: -o-linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/balancing.jpg);
-	background-image: linear-gradient(rgba(62, 75, 92, 0.70), rgba(62, 75, 92, 0.70)), url(../img/landing/balancing.jpg);
-	background-position: center center;
-	background-size: cover;
+	/*text-align: center;*/
+	background-image: url(../img/landing/hp2.jpg);
+	background-image: url(../img/landing/hp2.jpg);
+	background-image: url(../img/landing/hp2.jpg);
+	background-position: top left;
+	background-size: 120%;
 	margin-bottom:160px;
 }
 body.native .indexTab .mainBlock {
@@ -504,6 +509,7 @@ body.native .indexTab .mainBlock {
 }
 @media screen and (max-width: 940px) {
 	.indexTab .mainBlock{
+		min-height:60vh;
 		margin-bottom:40px;
 	}
 }
@@ -511,6 +517,7 @@ body.native .indexTab .mainBlock {
 }
 .indexTab .mainBlock .headline{
 	margin-top: 30vh;
+	margin-left: 5vh;
 }
 @media screen and (max-width: 940px) {
 	.indexTab .mainBlock .headline{
@@ -519,9 +526,8 @@ body.native .indexTab .mainBlock {
 }
 .indexTab .mainBlock h1{
 	display: inline-block;
-	color:white;
-	border-bottom:1px solid white;
-	padding: 0 20px;
+	color:white;	
+	padding: 0;
 	margin-bottom: 0;
 	font-size: 40px;
 }
@@ -548,6 +554,12 @@ body.native .indexTab .mainBlock > .actions{
 	margin-top: 0;
 	margin-right: 20px;
 }
+.indexTab .mainBlock > .actions .btn:last-child{
+	/*padding:3px;*/
+	background: white;
+	margin-top: 0;
+	margin-right: 0px;
+}
 .indexTab .mainBlock > .actions .btn.basic{
 	background: none;
 	color:white;
@@ -557,10 +569,16 @@ body.native .indexTab .mainBlock > .actions{
 	text-align: right;
 	float:right;
 }
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 599px) {
 	.indexTab .mainBlock > .actions .right{
 		float:none;
 		margin-top:15px;
+	}
+}
+@media screen and (min-width: 600px) and (max-width: 940px) {
+	.indexTab .mainBlock > .actions .right{
+		float:right;
+		margin-top:0px;
 	}
 }
 .indexTab .notesBlock{
@@ -1081,4 +1099,9 @@ body{
 }
 .progress .label{
 	display: block;
+}
+
+/* CUSTOM */
+.callToAction {
+	margin-left: 5vh;
 }

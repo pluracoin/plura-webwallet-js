@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Client-side Karbo Web Wallet",
-	"description":"Official online wallet for Karbo currency - fully handled in your browser for optimal security"
+	"title":"Client-side PLURA Web Wallet",
+	"description":"Official online wallet for PluraCoin currency - fully handled in your browser for optimal security"
   },
   "messages": {
 	"menu": {
@@ -63,8 +63,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Secure Karbo Wallet",
-	  "tagLine": "The simplest way to use Karbo – anywhere and any time",
+	  "mainTitle": "Secure PLURA Wallet",
+	  "tagLine": "The simplest way to use PluraCoin – anywhere and any time",
 	  "actions": {
 		"loadWallet": "Load my wallet",
 		"importWallet": "Import a wallet",
@@ -143,7 +143,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"That was simple. Your account is ready!",
-		"subtitle":"Be ready to use Karbo like you never have",
+		"subtitle":"Be ready to use PLURA like you never have",
 		"passwordSelectionBlock":{
 		  "label":"Protect your wallet"
 		},
@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Risk of Using KarboWallet",
-		"content":"KarboWallet is a web-based interface. It helps you use Karbo without running a full Karbo node. <br/>We recommend you treat KarboWallet like you will treat your actual wallet."
+		"title":"Risk of Using PLURA Web Wallet",
+		"content":"PLURA Web Wallet is a web-based interface. It helps you use PLURA without running a full PLURA node. <br/>We recommend you treat PLURA Web Wallet like you will treat your actual wallet."
 	  }
 	},
 	"donatePage":{
@@ -178,8 +178,8 @@
 		"content":"If you want to help to pay for the servers, to support new features development, and like this app, please consider a donation: <br/><br/>"
 	  },
 	  "devFundBlock":{
-		"title":"Karbo Dev fund",
-		"content":"To help Karbo, you can donate at these addresses"
+		"title":"PLURA Dev fund",
+		"content":"To help PLURA, you can donate at these addresses"
 	  }
 	},
 	"supportPage":{
@@ -188,12 +188,12 @@
 	  "getInTouchBlock":{
 		"title":"Let's Get In Touch!",
 		"content":"Do you have ideas or feedback that could help us improve the wallet? Contact us!",
-		"discord":"Karbo Discord Channel"
+		"discord":"PLURA Discord Channel"
 	  }
 	},
 	"networkPage":{
 	  "title":"Network stats",
-	  "subtitle":"Insights on the Karbo network",
+	  "subtitle":"Insights on the PLURA network",
 	  "statsBlock":{
 		"hashrate":"Network hashrate",
 		"height":"Blockchain height",
@@ -234,7 +234,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Thank you for your donation!",
-		"content":"Your help is appreciated. <br/>This donation will help make Karbo better",
+		"content":"Your help is appreciated. <br/>This donation will help make PLURA better",
 		"confirmText":"OK"
 	  },
 	  "transferSentModal":{

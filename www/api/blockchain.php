@@ -1,15 +1,17 @@
 <?php
 
-//ini_set('display_errors', 1);
-//ini_set('display_startup_errors', 1);
-//error_reporting(E_ALL);
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+error_reporting(E_NONE);
 
 include 'config.php';
 
-if(!empty($_GET["gen"]) && $_GET['gen'] == "1"){
-  putenv("generate=true");
-} else {
-  putenv("generate=false");
+if((!empty($_GET["gen"]) && $_GET['gen'] == "1") || $argv[1]=="generate"){
+	set_time_limit(0);
+	putenv("generate=true");
+	}
+else {
+	putenv("generate=false");
 }
 
 function getTxWithHashes($txHashes){
