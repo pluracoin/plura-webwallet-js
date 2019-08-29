@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Portafoglio online ufficiale per Karbo",
-	"description":"Portafoglio online ufficiale per Karbo currency - anonimo, sicuro e completamente gestito nel tuo browser per una sicurezza ottimale"
+	"title":"Portafoglio online ufficiale per PLURA",
+	"description":"Portafoglio online ufficiale per PLURA currency - anonimo, sicuro e completamente gestito nel tuo browser per una sicurezza ottimale"
   },
   "messages": {
 	"menu": {
@@ -62,8 +62,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Portafoglio sicuro per Karbo",
-	  "tagLine": "Il modo più semplice per usare Karbo - ovunque e in qualsiasi momento",
+	  "mainTitle": "Portafoglio sicuro per PLURA",
+	  "tagLine": "Il modo più semplice per usare PLURA - ovunque e in qualsiasi momento",
 	  "actions": {
 		"loadWallet": "Carica il mio portafoglio",
 		"importWallet": "Importa un portafoglio",
@@ -81,7 +81,7 @@
 		},
 		"technology": {
 		  "title": "Tecnologia unica",
-		  "description": "Collegato direttamente alla blockchain di Karbo!"
+		  "description": "Collegato direttamente alla blockchain di PLURA!"
 		},
 		"openSource": {
 		  "title": "Completamente open-source",
@@ -105,7 +105,7 @@
 		"emptyWallet": "Al momento non disponi di fondi su questo portafoglio",
 		"waitSync": "Si prega di attendere la fine della sincronizzazione",
 		"beReallyPatient": "La prima sincronizzazione potrebbe richiedere alcuni minuti ...",
-		"getCoinAddress": "Ricevi MSR"
+		"getCoinAddress": "Ricevi PLURA"
 	  },
 	  "txDetails":{
 		"title":"Dettagli transazione",
@@ -142,7 +142,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"È stato semplice. Il tuo portafoglio è pronto!",
-		"subtitle":"Tenetevi pronti a usare Karbo come mai prima d'ora",
+		"subtitle":"Tenetevi pronti a usare PLURA come mai prima d'ora",
 		"passwordSelectionBlock":{
 		  "label":"Proteggi il tuo portafoglio"
 		},
@@ -165,8 +165,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Rischi nell'usare KarboWallet",
-		"content":"KarboWallet è una interfaccia web-based. Ti aiuta ad usare Karbo senza eseguire un full node. <br/>Vi consigliamo di trattare MaraiWallet come trattereste il vostro portafoglio attuale."
+		"title":"Rischi nell'usare PLURA Wallet",
+		"content":"PLURA Wallet è una interfaccia web-based. Ti aiuta ad usare PLURA senza eseguire un full node. <br/>Vi consigliamo di trattare MaraiWallet come trattereste il vostro portafoglio attuale."
 	  }
 	},
 	"donatePage":{
@@ -176,9 +176,9 @@
 		"title":"Webwallet",
 		"content":"Questo webwallet è sviluppato da Gnock nel suo tempo libero.<br/> Se vuoi aiutare lo sviluppo, aiutare a pagare server e ti piace questa applicazione, prendi in considerazione la possibilità di effettuare una piccola donazione.: <br/><br/>"
 	  },
-	  "KarboFundBlock":{
-		"title":"Fondo per lo sviluppo di Karbo",
-		"content":"Per aiutare Karbo puoi donare a questo indirizzo "
+	  "devFundBlock":{
+		"title":"Fondo per lo sviluppo di PLURA",
+		"content":"Per aiutare PLURA puoi donare a questo indirizzo "
 	  }
 	},
 	"supportPage":{
@@ -187,12 +187,12 @@
 	  "getInTouchBlock":{
 		"title":"Mettiamoci in contatto!",
 		"content":"Se hai idee o feedback per migliorare il portafoglio, contattaci!",
-		"discord":"Karbo Discord Channel"
+		"discord":"PLURA Discord Channel"
 	  }
 	},
 	"networkPage":{
 	  "title":"Statistiche del network",
-	  "subtitle":"Dettagli sul network Karbo",
+	  "subtitle":"Dettagli sul network PLURA",
 	  "statsBlock":{
 		"hashrate":"Network Hashrate",
 		"height":"Altezza blockchain",
@@ -202,7 +202,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Invia MSR",
+	  "title":"Invia PLURA",
 	  "sendBlock":{
 		"address":{
 		  "label":"Indirizzo di destinazione",
@@ -233,7 +233,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Grazie per la tua donazione!",
-		"content":"Il tuo aiuto è molto apprezzato. <br/>Questa donazione contribuirà a rendere Karbo ancora migliore",
+		"content":"Il tuo aiuto è molto apprezzato. <br/>Questa donazione contribuirà a rendere PLURA ancora migliore",
 		"confirmText":"Ok"
 	  },
 	  "transferSentModal":{
@@ -270,7 +270,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Ricevi MSR",
+	  "title":"Ricevi PLURA",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Il tuo indirizzo per ricevere i fondi",
@@ -298,7 +298,7 @@
 	},
 	"miningPage":{
 	  "title":"Mina direttamente nel tuo browser",
-	  "subtitle":"Supporta il network minando e ricevi MSR come ricompensa",
+	  "subtitle":"Supporta il network minando e ricevi PLURA come ricompensa",
 	  "parameterBlock":{
 		"title":"Parametri",
 		"labelDestinationAddress":"Portafoglio di destinazione",
@@ -312,7 +312,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"Con software e hardware dedicato al mining potresti raggiungere un hashrate da due a tre volte più elevato.",
-		"miningHandledBy":"Questo mining è gestito dalla pool get.Karbocoin.com"
+		"miningHandledBy":"Questo mining è gestito dalla pool plurapool.com"
 	  }
 	},
 	"settingsPage":{
