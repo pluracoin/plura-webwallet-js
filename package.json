@@ -1,7 +1,7 @@
 {
-  "name": "karbowebwallet",
+  "name": "plurawebwallet",
   "version": "1.0.0",
-  "description": "Fully client side web wallet for Karbo",
+  "description": "Fully client side web wallet for PLURA",
   "main": "index.js",
   "dependencies": {
     "typescript": "^2.9.2",
@@ -10,12 +10,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aivve/karbo-webwallet-js.git"
+    "url": "git+https://github.com/pluracoin/plura-webwallet-js.git"
   },
   "author": "Gnock",
   "license": "BSD-3",
   "bugs": {
     "url": "https://github.com/gnock/masari-webwallet/issues"
   },
-  "homepage": "https://github.com/aivve/karbo-webwallet-js#readme"
+  "homepage": "https://github.com/pluracoin/plura-webwallet-js.git#readme"
 }
