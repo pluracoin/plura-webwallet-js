@@ -1,0 +1,495 @@
+{
+  "website":{
+	"title":"Bezpečná PLURA peněženka",
+	"description":"Oficiální online webová peněženka pro kryptoměnu PluraCoin - bezpečné komplexní řešení ve vašem přohlížeči"
+  },
+  "messages": {
+	"menu": {
+	  "home": "Domů",
+	  "account": "Účet",
+	  "send": "Poslat",
+	  "receive": "Přijmout",
+	  "export": "Exportovat",
+	  "donate": "Darovat",
+	  "settings": "Nastavení",
+	  "disconnect": "Odpojit",
+	  "network": "Statistiky sítě",
+	  "mining": "Těžba"
+	},
+	"global": {
+	  "loading": "Načítám",
+	  "disableSecurity":"Vypnout tuto ochranu, chápu rizika",
+	  "passwordInvalidRequirements":"Heslo musí obsahovat nejméně 8 znaků - 1 velké písmeno, 1 malé písmeno, jedno číslo a jeden zvláštní znak",
+	  "passwordConfirmationNotMatching":"Heslo se neshoduje s prvním heslem, které jste napsali",
+	  "download":"Stáhnout",
+	  "newVersionModal":{
+		"title":"Je k dispozici nová verze aplikace",
+		"content":"Chcete načíst novou verzi aplikace?",
+		"confirmText":"Ano",
+		"cancelText":"Zpět"
+	  },
+	  "openWalletModal":{
+		"title":"Zadejte heslo k peněžence",
+		"confirmText":"Otevřít",
+		"cancelText":"Zrušit"
+	  },
+	  "invalidPasswordModal":{
+		"title":"Chybička ...",
+		"content":"Vaše heslo není správné",
+		"confirmText":"OK"
+	  },
+	  "invalidMnemonicModal":{
+		"title":"Chybička ...",
+		"content":"Pamatovací fráze není správně",
+		"confirmText":"OK"
+	  },
+	  "passwordNotComplexEnoughModal":{
+		"title":"Heslo není dostatečně složité",
+		"confirmText":"OK"
+	  },
+	  "permissionRequiredForCameraModal":{
+		"title":"Chybička ...",
+		"content":"K naskenování kódu QR je třeba oprávnění pro přístup k fotoaparátu",
+		"confirmText":"OK"
+	  }
+	},
+	"bottom": {
+	  "termsOfUse": "Podmínky použití",
+	  "privacyPolicy": "Ochrana osobních údajů",
+	  "support": "Podpora",
+	  "donate": "Darovat",
+	  "network": "Statistiky sítě",
+	  "miningPool": "Těžba",
+	  "github": "GitHub"
+	},
+	"homepage": {
+	  "mainTitle": "PLURA Peněženka",
+	  "tagLine": "Nejjednodušší způsob, jak používat PluraCoin",
+	  "actions": {
+		"loadWallet": "Načíst peněženku",
+		"importWallet": "Importovat peněženku",
+		"create": "Vytvořit",
+		"createWallet": "Vytvořit peněženku"
+	  },
+	  "notes": {
+		"secure": {
+		  "title": "Bezpečnost",
+		  "description": "Vše je šifrované!"
+		},
+		"fast": {
+		  "title": "Rychlost",
+		  "description": "Plaťte kdykoliv a kdekoliv"
+		},
+		"technology": {
+		  "title": "Vaše zařízení",
+		  "description": "Klíče jsou u vás"
+		},
+		"openSource": {
+		  "title": "Open-source",
+		  "description": "Ověřte na Githubu!"
+		}
+	  }
+	},
+	"accountPage": {
+	  "title": "Účet",
+	  "subtitle": "Přehled vašeho účtu a historie transakcí",
+	  "synchronizingBlock": {
+		"text": "Synchronizuji: "
+	  },
+	  "balanceBlock": {
+		"title": "Váš zůstatek",
+		"unlocked": "Odemčeno"
+	  },
+	  "historyBlock": {
+		"title": "Historie transakcí",
+		"pendingTxStatus": "Čekající",
+		"emptyWallet": "Momentálně nemáte v této peněžence žádné finanční prostředky.",
+		"waitSync": "Počkejte prosím na aktualizaci peněženky",
+		"beReallyPatient": "Počáteční nastavení může nějakou dobu trvat ...",
+		"getCoinAddress": "Přijmout PLURA"
+	  },
+	  "txDetails":{
+		"title":"Detail transakce",
+		"txHash":"Tx hash",
+		"feesOnTx":"Tx poplatky",
+		"blockHeight":"Výška bloku",
+		"paymentId":"ID platby",
+		"txPrivKey":"Soukromý klíč transakce"
+	  }
+	},
+	"changeWalletPasswordPage":{
+	  "title":"Změna hesla",
+	  "oldPassword":{
+		"label":"Původní heslo",
+		"invalid":"Heslo není správné"
+	  },
+	  "newPassword":{
+		"label":"Zadejte nové heslo k peněžence"
+	  },
+	  "newPasswordConfirm":{
+		"label":"Potvrďte nové heslo"
+	  },
+	  "confirm":"Změnit heslo",
+	  "modalSuccess":{
+		"title":"Heslo změněno!",
+		"confirmText":"OK"
+	  }
+	},
+	"createWalletPage":{
+	  "generatingStep":{
+		"title":"Vaše peněženka se generuje ...",
+		"subtitle":"Skoro hotovo",
+		"waitingMessage":"Připravuji peněženku ..."
+	  },
+	  "finalizationStep":{
+		"title":"Váš účet je připraven!",
+		"subtitle":"Používejte PLURA jako nikdy předtím",
+		"passwordSelectionBlock":{
+		  "label":"Zabezpečit peněženku"
+		},
+		"passwordConfirmBlock":{
+		  "label":"Potvrdit heslo"
+		},
+		"validPassword":"Použít toto heslo",
+		"backupBlock":{
+		  "title":"Uložte svá soukromá přihlašovací údaje pro obnovení.",
+		  "option1":"Možnost č.1: ",
+		  "option2":"Možnost č.2: ",
+		  "titlePdf":"Stáhněte si kopii v PDF",
+		  "titleManualWrite":"Poznamenejte si svoje klíče",
+		  "privateKeys":"Privátní klíč",
+		  "mnemonicPhrase":"Fráze k zapamatování",
+		  "separatorManualMethodsSolution":" nebo ",
+		  "confirmManuallyWritten":"Pamatovací frázi jsem si uložil/a",
+		  "warningMessage":"**Neztraťte tuto informaci!** Pokud ji ztratíte, nelze ji obnovit.<br/>**S nikým jí nesdílejte!** Vaše peníze budou odcizeny, pokud použijete tento soubor nebo frázi na škodlivém / phishingovém webu.<br/>**Vždy mějte zálohu!** Zajistěte to jako miliony dolarů, které tato kryptoměna může v budoucnu nabýt.<br/>",
+		  "finishButton":"Rozumím. Pokračovat."
+		}
+	  },
+	  "disclaimerBlock":{
+		"title":"Riziko používání webové peněženky PLURA",
+		"content":"PLURA Web Wallet je webové rozhraní. Pomáhá vám používat PLURA bez spuštění úplného uzlu PLURA. <br/> Doporučujeme, abyste s webovou peněženkou PLURA zacházeli stejně jako se skutečnou peněženkou."
+	  }
+	},
+	"donatePage":{
+	  "title":"Darovat",
+	  "subtitle":"Pomozte financovat vývoj a platit účty",
+	  "webwalletBlock":{
+		"title":"Webová peněženka",
+		"content":"Pokud chcete pomoci platit za servery, podporovat vývoj nových funkcí a podobně jako tato aplikace, zvažte prosím dar: <br/><br/>"
+	  },
+	  "devFundBlock":{
+		"title":"PLURA Vývojářský fond",
+		"content":"Chcete-li pomoci PLURA, pošlete dar na tuto adresu"
+	  }
+	},
+	"supportPage":{
+	  "title":"Podpora",
+	  "subtitle":"Jsme tu, abychom vám pomohli!",
+	  "getInTouchBlock":{
+		"title":"Kontaktuje nás",
+		"content":"Máte nápady nebo zpětnou vazbu, které by nám mohly pomoci vylepšit peněženku? Kontaktujte nás!",
+		"discord":"Kanál PLURA na Discordu"
+	  }
+	},
+	"networkPage":{
+	  "title":"Statistiky sítě",
+	  "subtitle":"Statistiky v síti PLURA",
+	  "statsBlock":{
+		"hashrate":"Hashrate sítě",
+		"height":"Výška blockchainu",
+		"difficulty":"Složitost",
+		"lastTimeBlock":"Poslední nalezený blok",
+		"lastReward":"Odměna z posledního bloku"
+	  }
+	},
+	"sendPage":{
+	  "title":"Poslat PLURA",
+	  "sendBlock":{
+		"address":{
+		  "label":"Cílová adresa",
+		  "placeholder":"Vložte adresu, na kterou chcete posílat finanční prostředky",
+		  "invalid":"Cílová adresa je neplatná",
+		  "fundsTo":"Prostředky budou zaslány na",
+		  "receiver":"Příjemce",
+		  "description":"Popisek"
+		},
+		"amount":{
+		  "label":"Částka k odeslání",
+		  "invalid":"Částka není platná"
+		},
+		"paymentId":{
+		  "label":"ID platby (nepovinné)",
+		  "invalid":"ID platby je neplatné. Délka musí být 16 nebo 64 znaků."
+		},
+		"sendButton":"Odeslat",
+		"cancelButton":"Zrušit"
+	  },
+	  "qrCodeScanning":{
+		"explication":"Zadejte QR kód"
+	  },
+	  "notEnoughMoneyModal":{
+		"title":"Chbička ...",
+		"content":"V peněžence nemáte dostatek prostředků k provedení tohoto převodu",
+		"confirmText":"OK"
+	  },
+	  "thankYouDonationModal":{
+		"title":"Děkujeme za váš dar!",
+		"content":"Vaše pomoc je vítána. <br/> Tento dar pomůže vylepšit PLURA",
+		"confirmText":"OK"
+	  },
+	  "transferSentModal":{
+		"title":"Platba byla úspěšně odeslána!",
+		"confirmText":"OK"
+	  },
+	  "transferExceptionModal":{
+		"title":"Chybička ...",
+		"content":"Vyskytla se chyba. Nahlaste nám tuto chybu: {details}",
+		"confirmText":"OK"
+	  },
+	  "invalidAmountModal":{
+		"title":"Chybička ...",
+		"content":"Neplatné množství",
+		"confirmText":"OK"
+	  },
+	  "creatingTransferModal":{
+		"title":"Vytvářím platbu ...",
+		"content":"Čekejte prosím ..."
+	  },
+	  "finalizingTransferModal":{
+		"title":"Dokončuji platbu ...",
+		"content":"Čekejte prosím..."
+	  },
+	  "confirmTransactionModal":{
+		"title":"Potvrdit platbu?",
+		"content":"Částka: {amount}<br/>Poplatky: {fees}<br/>Celkem: {total}",
+		"confirmText":"Potvrdit",
+		"cancelText":"Zrušit"
+	  },
+	  "waitingNfcModal":{
+		"title":"Čekám na NFC",
+		"content":"Přibližte se k druhému zařízení"
+	  }
+	},
+	"receivePage":{
+	  "title":"Přijmout PLURA",
+	  "receiveBlock":{
+		"address":{
+		  "title":"Vaše adresa pro příjem finančních prostředků:",
+		  "label":"Poskytněte druhé straně tuto adresu"
+		},
+		"qrCode":{
+		  "title":"Nebo si přizpůsobte QR kód:",
+		  "labelAmount":"Částka (nepovinné)",
+		  "labelRecipient":"Jméno příjemce (nepovinné)",
+		  "labelDescription":"Popis transakce (nepovinné)",
+		  "updateButton":"Potvrdit"
+		}
+	  },
+	  "qrBlock":{
+		"title":"Váš přizpůsobený QR kód"
+	  },
+	  "waitingNfcToWriteModal":{
+		"title":"Čekám na NFC",
+		"titleSuccess":"NFC tag byl zapsán",
+		"content":"Chcete-li psát, přiblížit tag NFC"
+	  },
+	  "nfcErrorModal":{
+		"titleInsufficientCapacity":"Kapacita značky není dostatečná"
+	  }
+	},
+	"miningPage":{
+	  "title":"Těžba přímo ve vašem prohlížeči",
+	  "subtitle":"Podporujte síť těžbou a získejte odměnu v PLURA",
+	  "parameterBlock":{
+		"title":"Parametry",
+		"labelDestinationAddress":"Peněženka, do které se bude těžit",
+		"labelThreads":"Počet vláken (více = vyšší hashrate)",
+		"start":"Start",
+		"stop":"Stop"
+	  },
+	  "statisticsBlocks":{
+		"title":"Statistika",
+		"validShares":"Platné podíly",
+		"hashrate":"Hashrate",
+		"maxHashrate":"Max Hashrate",
+		"dedicatedHardware":"Pokud se budete těžbě věnovat profesionálně, můžete vydělat více a pomoci decentralizovat síť.",
+		"miningHandledBy":"Tuto těžbu zpracovává těžební pool plurapool.com"
+	  }
+	},
+	"settingsPage":{
+	  "title":"Nastavení",
+	  "subtitle":"Změňte zde své parametry",
+	  "versionBlock":{
+		"versionNumber":"Číslo verze: ",
+		"versionCode":"Kód verze: "
+	  },
+	  "settingsBlock":{
+		"speed":{
+		  "label":"Rychlost aktualizace peněženky (bude vyžadovat více výkonu)",
+		  "fastest":"Nejrychlejší",
+		  "fast":"Rychlá",
+		  "medium":"Střední",
+		  "slow":"Pomalá"
+		},
+		"language":{
+		  "label":"Jazyk"
+		},
+		"readMinerTx":{
+		  "label":"Čtení těžebních transakcí (pouze pro sólovou těžbu)"
+		}
+	  },
+	  "changePasswordButton":"Změnit heslo k peněžence",
+	  "deleteWalletButton":"Smazat peněženku (místní kopie)",
+	  "walletSettings":{
+		"creationHeight":{
+		  "label":"Výška vytvoření peněženky (číslo bloku)"
+		},
+		"currentScanningHeight": {
+		  "label": "Aktuální výška skenování (číslo bloku)"
+		},
+		"updateButton":"Uložit"
+	  },
+	  "deleteWalletModal":{
+		"title":"Smazat mou peněženku (místní kopie)",
+		"content":"Opravdu chcete svoji peněženku smazat?",
+		"confirmText":"Ano, jsem si jistý/á",
+		"cancelText":"Zrušit"
+	  }
+	},
+	"importBasePage":{
+	  "parametersBlock":{
+		"title":"Nastavení",
+		"password":{
+		  "label":"Heslo pro ochranu vaší peněženky"
+		},
+		"passwordConfirm":{
+		  "label":"Potvrdit heslo",
+		  "invalid":"Heslo se neshoduje s prvním heslem, které jste napsali"
+		},
+		"importHeight":{
+		  "label":"Výška bloku od které začít importovat:"
+		}
+	  }
+	},
+	"importFromQrPage":{
+	  "title":"Importovat peněženku pomocí QR kódu",
+	  "subtitle":"Importujte peněženku z offline zálohy",
+	  "qrCodeBlock":{
+		"title":"QR kód",
+		"startScanButton":"Začít skenování",
+		"importButton":"Import"
+	  },
+	  "qrScanningBlock":{
+		"title":"Zadejte QR kód"
+	  }
+	},
+	"exportPage":{
+	  "title":"Záloha přihlašovacích údajů",
+	  "publicAddressBlock":{
+		"title":"Vaše veřejná adresa"
+	  },
+	  "pdfBlock":{
+		"title":"Záloha v PDF souboru",
+		"downloadButton":"Stáhnout"
+	  },
+	  "warningBlock":{
+		"title":"Pozor",
+		"content":"Pokud se rozhodnete uložit své soukromé klíče nebo vaši frázi k zapamatování, prosíme NIKDY je neukládejte v čistém textu pro vaši vlastní bezpečnost.<br/>Soubor je alternativní řešení, kde jsou vaše klíče zašifrovány a obsahuje zálohu všech vašich transakcí, abyste ušetřili budoucí synchronizaci."
+	  },
+	  "exportBlock":{
+		"title":"Export pčístupových údajů",
+		"privateKeysButton":"Získat privátní klíče",
+		"mnemonicKeysButton":"Získat frázi k zapamatování",
+		"fileButton":"Exportovat do souboru"
+	  },
+	  "walletKeysModal":{
+		"title":"Privátní klíče",
+		"confirmText":"OK",
+		"content":"Tyto klíče pečlivě uložte. <b>Vlastnit je znamená vlastnit prostředky uložené ve vaší peněžence</b> !<br/>Platební klíč: {privSpendKey}<br/>Soukromý klíč pro čtení: {privViewKey}"
+	  },
+	  "mnemonicKeyModal":{
+		"title":"Fráze k zapamatování",
+		"confirmText":"OK",
+		"content":"Tuto frázi si pečlivě uložte.<b></b> ! Fráze je:<br/>{mnemonic}"
+	  },
+	  "mnemonicLangSelectionModal":{
+		"title":"V jakém jazyce chcete svou frázi k zapamatování zobrazit?",
+		"confirmText":"Export"
+	  }
+	},
+	"importPage":{
+	  "title":"Vytvořit peněženku",
+	  "subtitle":"Z dříve vytvořených klíčů, souboru nebo pamatovací fráze",
+	  "chooseMethod":"Vyberte svojí importovací metodu:",
+	  "fromKeys":"Z klíčů",
+	  "fromFile":"Ze souboru",
+	  "fromMnemonic":"Z pamatovací fráze",
+	  "fromQr":"Z QR kódu"
+	},
+	"termsOfUsePage":{
+	  "title":"Podmínky užití",
+	  "subtitle":"Prosíme přečtěte si je pozorně."
+	},
+	"privacyPolicyPage":{
+	  "title":"Ochrana osobních údajů",
+	  "subtitle":"Prosíme přečtěte si je pozorně."
+	},
+	"importFromFilePage":{
+	  "title":"Import peněženky ze záložního souboru",
+	  "subtitle":"Vytvořte peněženku ze záložního souboru",
+	  "walletBlock":{
+		"title":"Soubor s peněženkou",
+		"label":"Vyberte soubor",
+		"importButton":"Import"
+	  }
+	},
+	"importFromMnemonicPage":{
+	  "title":"Import peněženky z pamatovací fráze",
+	  "subtitle":"Zadejte frázi",
+	  "mnemonicBlock":{
+		"title":"Fráze",
+		"mnemonic":{
+		  "label":"Pamatovací fráze: 25 slov",
+		  "invalid":"Pamatovací fráze je neplatná",
+		  "language":"Jazyk"
+		},
+		"importButton":"Import"
+	  }
+	},
+	"importFromKeysPage":{
+	  "title":"Import peněženky z klíčů",
+	  "subtitle":"Použijte klíče k importu peněženky",
+	  "parametersBlock":{
+		"viewOnlyWallet":{
+		  "label":"Chcete vytvořit peněženku pouze pro zobrazení/čtení?"
+		}
+	  },
+	  "keysBlock":{
+		"titleNotViewOnly":"Klíče k peněžence",
+		"titleViewOnly":"Peněženka pouze pro zobrazení/čtení",
+		"privateSpend":{
+		  "label":"Soukromý platební klíč"
+		},
+		"privateView":{
+		  "label":"Soukromý zobrazovací klíč",
+		  "optional":"(nepovinné)"
+		},
+		"publicKey":{
+		  "label":"Veřejný klíč"
+		},
+		"importButton":"Import"
+	  }
+	}
+  },
+  "number":{
+  },
+  "date":{
+	"short": {
+	  "year": "numeric", "month": "numeric", "day": "numeric"
+	},
+	"long": {
+	  "year": "numeric", "month": "numeric", "day": "numeric",
+	  "weekday": "short", "hour": "numeric", "minute": "numeric", "hour12": false
+	}
+  }
+}
