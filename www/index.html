@@ -77,7 +77,7 @@
 
 <div id="copyright" v-cloak="">
 	<div>© 2019 pluracoin.org</div>
-	<div class="links" >
+	<div id="langs">
 		<select v-model="language" class="hideOnNative">
 			<option value="en">English</option>
 			<option value="sr">Српски</option>
@@ -88,15 +88,17 @@
 			<option value="gr">Ελληνικά</option>
 			<option value="ru">Русский</option>
 			<option value="uk">Українська</option>
-			<option value="fa">فارسی</option>
+			<option value="cs">Česky</option>
 		</select>
+	</div>
+	<div class="links" >		
 		<a href="#!termsOfUse" >{{ $t("bottom.termsOfUse") }}</a>
 		<a href="#!privacyPolicy" >{{ $t("bottom.privacyPolicy") }}</a>
 		<a href="#!support" >{{ $t("bottom.support") }}</a>
 		<a class="hideOnNative" href="#!donate" >{{ $t("bottom.donate") }}</a>
 		<a class="hideOnNative" href="#!network" >{{ $t("bottom.network") }}</a>
-		<a class="hideOnNative" href="https://pool.karbowanec.com" target="_blank" >{{ $t("bottom.miningPool") }}</a>
-		<a class="hideOnNative" href="https://github.com/aivve/karbo-webwallet-js" target="_blank">{{ $t("bottom.github") }}</a>
+		<a class="hideOnNative" href="https://explorer.pluracoin.org/#pools" target="_blank" >{{ $t("bottom.miningPool") }}</a>
+		<a class="hideOnNative" href="https://github.com/pluracoin/plura-webwallet-js" target="_blank">{{ $t("bottom.github") }}</a>
 	</div>
 	<div class="cb" ></div>
 </div>
