@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Hivatalos Karbo webtárca",
-	"description":"A Karbo hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
+	"title":"Hivatalos PLURA webtárca",
+	"description":"A PLURA hivatalos online tárcája - névtelen, biztonságos és teljes mértékben böngészőből kezelt az optimális biztonság érdekében"
   },
   "messages": {
 	"menu": {
@@ -63,8 +63,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Biztonságos Karbo tárca",
-	  "tagLine": "A Karbo használatának legegyszerűbb módja - bárhol és bármikor",
+	  "mainTitle": "Biztonságos PLURA tárca",
+	  "tagLine": "A PLURA használatának legegyszerűbb módja - bárhol és bármikor",
 	  "actions": {
 		"loadWallet": "Tárca betöltése",
 		"importWallet": "Tárcaimportálás",
@@ -82,7 +82,7 @@
 		},
 		"technology": {
 		  "title": "Egyedi technológia",
-		  "description": "Közvetlen kapcsolat a Karbo blokklánccal!"
+		  "description": "Közvetlen kapcsolat a PLURA blokklánccal!"
 		},
 		"openSource": {
 		  "title": "Teljesen nyílt forrású",
@@ -143,7 +143,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"Ez egyszerű volt. A számlád rendelkezésre áll!",
-		"subtitle":"Állj készen a Karbo használatára",
+		"subtitle":"Állj készen a PLURA használatára",
 		"passwordSelectionBlock":{
 		  "label":"Védd a tárcád"
 		},
@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"A MasariWallet használatának kockázatai",
-		"content":"A KarboWallet egy webes felület, mely lehetővé teszi a Karbo használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a KarboWalletet, mintha az a valódi pénztárcád lenne."
+		"title":"A PLURA Wallet használatának kockázatai",
+		"content":"A PLURA Wallet egy webes felület, mely lehetővé teszi a PLURA használatát teljes csomópont futtatása nélkül.<br/>Kezeld úgy a PLURA Walletet, mintha az a valódi pénztárcád lenne."
 	  }
 	},
 	"donatePage":{
@@ -178,8 +178,8 @@
 		"content":"A webtárcát Gnock fejleszti szabadidejében.<br/>Ha szeretnéd segíteni a fejlesztést, a szerverek fizetését és tetszik az applikáció, úgy vedd fontolóra az adományozást:<br/><br/>"
 	  },
 	  "devFundBlock":{
-		"title":"Karbo fejlesztési alap",
-		"content":"Ha szeretnél segíteni a Karbonak, az alábbi címekre adományozhatsz"
+		"title":"PLURA fejlesztési alap",
+		"content":"Ha szeretnél segíteni a PLURAnak, az alábbi címekre adományozhatsz"
 	  }
 	},
 	"supportPage":{
@@ -188,12 +188,12 @@
 	  "getInTouchBlock":{
 		"title":"Lépjünk kapcsolatba!",
 		"content":"Visszajelzésed vagy ötleted van a tárcával kapcsolatban? Keress fel bennünket!",
-		"discord":"Karbo Discord-csatorna"
+		"discord":"PLURA Discord-csatorna"
 	  }
 	},
 	"networkPage":{
 	  "title":"Hálózati statisztika",
-	  "subtitle":"Betekintés a Karbo hálózatába",
+	  "subtitle":"Betekintés a PLURA hálózatába",
 	  "statsBlock":{
 		"hashrate":"Hálózati hashrate",
 		"height":"Blokklánc hossza",
@@ -234,7 +234,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Köszönjük az adományt!",
-		"content":"Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a Karbot.",
+		"content":"Értékeljük a segítséged.<br/>Ez az adomány is segít jobbá tenni a PLURAt.",
 		"confirmText":"OK"
 	  },
 	  "transferSentModal":{
@@ -299,7 +299,7 @@
 	},
 	"miningPage":{
 	  "title":"Bányássz közvetlenül böngészőből",
-	  "subtitle":"Támogasd a hálózatot a bányászással és szerezz érte jutalmat Karboban",
+	  "subtitle":"Támogasd a hálózatot a bányászással és szerezz érte jutalmat PLURAban",
 	  "parameterBlock":{
 		"title":"Paraméterek",
 		"labelDestinationAddress":"Céltárca",
@@ -313,7 +313,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Maximális hashrate",
 		"dedicatedHardware":"Bányászásra dedikált szoftver és hardver használatával nagyobb bevételre tehetsz szert és segíthetsz a hálózat decentralizálásában.",
-		"miningHandledBy":"Ezt a bányászást a get.masaricoin.com pool kezeli"
+		"miningHandledBy":"Ezt a bányászást a plurapool.com pool kezeli"
 	  }
 	},
 	"settingsPage":{
