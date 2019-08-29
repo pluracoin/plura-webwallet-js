@@ -11,10 +11,10 @@
 
 		<div class="panel inline" v-if="currentScanBlock+2 < blockchainHeight" >
 			<div class="progress" >
-				<div class="bar" :style="'width:'+((currentScanBlock+1)/blockchainHeight*100 | 0)+'%'" >{{(((currentScanBlock+1)/blockchainHeight*1000 | 0) / 10)}}%</div>
+				<div class="bar" :style="'width:'+((currentScanBlock+1)/blockchainHeight*100 | 0)+'%'" >{{(((currentScanBlock+1)/blockchainHeight*1000 | 0) / 10)}}%</div>				
 				<label>
-					{{ $t("accountPage.synchronizingBlock.text") }} <span class="currentScanBlock" >{{currentScanBlock+1}}</span>/<span class="blockchainHeight" >{{blockchainHeight}}</span>
-				</label>
+					{{ $t("accountPage.synchronizingBlock.text") }} <span class="currentScanBlock" >{{currentScanBlock+1}}</span> / <span class="blockchainHeight" >{{blockchainHeight}}</span>
+				</label>				
 			</div>
 		</div>
 
@@ -22,10 +22,12 @@
 			<div class="body" >
 				<div class="header-title" >{{ $t("accountPage.balanceBlock.title") }}</div>
 				<div class="content" >
-					<span class="walletAmount" >{{ $n(walletAmount / currencyDivider) }}</span> PLURA
-					<tempate class="amount unlocked" v-if="unlockedWalletAmount !== walletAmount" >
-						<br/>{{ $t("accountPage.balanceBlock.unlocked") }}: <span class="walletAmount" >{{ $n(unlockedWalletAmount / currencyDivider) }}</span> PLURA
-					</tempate>
+					<span class="walletAmount" >{{ $n(walletAmount / currencyDivider) }}</span> <span class="walletAmount" >PLURA</span>
+					<div id="progress_label">
+					<template class="amount unlocked" v-if="unlockedWalletAmount !== walletAmount" >
+						<br/>{{ $t("accountPage.balanceBlock.unlocked") }}: {{ $n(unlockedWalletAmount / currencyDivider) }} PLURA
+					</template>
+					</div>
 				</div>
 			</div>
 		</div>

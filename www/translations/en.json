@@ -106,7 +106,7 @@
 		"emptyWallet": "You currently have no funds in this wallet.",
 		"waitSync": "Please wait until the wallet is updated",
 		"beReallyPatient": "The initial setup can take some time...",
-		"getCoinAddress": "Receive KRB"
+		"getCoinAddress": "Receive PLURA"
 	  },
 	  "txDetails":{
 		"title":"Transaction details",
@@ -313,7 +313,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"With dedicating mining software and hardware, you could earn more and help decentralize the network.",
-		"miningHandledBy":"This mining is handled by the mining pool get.masaricoin.com"
+		"miningHandledBy":"This mining is handled by the mining pool plurapool.com"
 	  }
 	},
 	"settingsPage":{

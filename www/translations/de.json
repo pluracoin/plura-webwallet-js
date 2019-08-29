@@ -1,7 +1,7 @@
 {
   "website":{
-	"title":"Offizielle Karbo Web Wallet",
-	"description":"Offizielle Online Wallet für Karbo currency, anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
+	"title":"Offizielle PLURA Web Wallet",
+	"description":"Offizielle Online Wallet für PLURA currency, anonym, sicher und für optimale Sicherheit vollständig in deinem Browser verwaltet"
   },
   "messages": {
 	"menu": {
@@ -63,8 +63,8 @@
 	  "github": "GitHub"
 	},
 	"homepage": {
-	  "mainTitle": "Gesicherte Karbo Wallet",
-	  "tagLine": "Der einfachste Weg Karbo jederzeit und überall zu nutzen",
+	  "mainTitle": "Gesicherte PLURA Wallet",
+	  "tagLine": "Der einfachste Weg PLURA jederzeit und überall zu nutzen",
 	  "actions": {
 		"loadWallet": "Lade meine Wallet",
 		"importWallet": "Importiere eine Wallet",
@@ -82,7 +82,7 @@
 		},
 		"technology": {
 		  "title": "Einzigartige Technologie",
-		  "description": "Direkt mit der Karbo Blockchain verbunden!"
+		  "description": "Direkt mit der PLURA Blockchain verbunden!"
 		},
 		"openSource": {
 		  "title": "Komplett open-source",
@@ -106,7 +106,7 @@
 		"emptyWallet": "Du hast zur Zeit kein Guthaben auf dieser Wallet",
 		"waitSync": "Warte bis die Wallet upgedated ist",
 		"beReallyPatient": "Die erste Einrichtung kann etwas dauern...",
-		"getCoinAddress": "Hol die deine Adresse um KRB zu empfangen"
+		"getCoinAddress": "Hol die deine Adresse um PLURA zu empfangen"
 	  },
 	  "txDetails":{
 		"title":"Transaktionsdetails",
@@ -143,7 +143,7 @@
 	  },
 	  "finalizationStep":{
 		"title":"Das war einfach. Dein Account ist bereit!",
-		"subtitle":"Benutze Karbo wie noch nie zuvor",
+		"subtitle":"Benutze PLURA wie noch nie zuvor",
 		"passwordSelectionBlock":{
 		  "label":"Schütze deine Daten mit einem Passwort"
 		},
@@ -161,13 +161,13 @@
 		  "mnemonicPhrase":"Mnemonic phrase",
 		  "separatorManualMethodsSolution":" oder ",
 		  "confirmManuallyWritten":"Ich habe es aufgeschieben",
-		  "warningMessage":"**Auf keinen Fall verlieren!** Sie können nicht wiederhergestellt werden wenn du sie verlierst.<br/>**Nicht weitergeben!** Deine Karbo werden gestohlen werden wenn diese Datei auf einer bösartigen/Phishing Seite benutzt.<br/>**Mache ein Backup!** Sichere es so wie die Millionen Euro, die es eines Tages vielleicht wert sein wird.<br/>",
+		  "warningMessage":"**Auf keinen Fall verlieren!** Sie können nicht wiederhergestellt werden wenn du sie verlierst.<br/>**Nicht weitergeben!** Deine PLURA werden gestohlen werden wenn diese Datei auf einer bösartigen/Phishing Seite benutzt.<br/>**Mache ein Backup!** Sichere es so wie die Millionen Euro, die es eines Tages vielleicht wert sein wird.<br/>",
 		  "finishButton":"Ich habe verstanden. Weiter"
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Risiko beim benutzen der KarboWallet",
-		"content":"KarboWallet ist ein web-basierendes Interface. Es hilft beim Nutzen von Karbo ohne einen vollen Node zu betreiben. <br/>Wir empfehlen KarboWallet sicherheitstechnisch wie eine richtige Wallet zu behandeln."
+		"title":"Risiko beim benutzen der PLURA Wallet",
+		"content":"PLURA Wallet ist ein web-basierendes Interface. Es hilft beim Nutzen von PLURA ohne einen vollen Node zu betreiben. <br/>Wir empfehlen PLURA Wallet sicherheitstechnisch wie eine richtige Wallet zu behandeln."
 	  }
 	},
 	"donatePage":{
@@ -178,8 +178,8 @@
 		"content":"Diese Webwallet ist von Gnock in seiner Freizeit entwickelt.<br/>Bitte denk über eine Spende nach wenn dir die App gefällt und du bei der Bezahlung der Server und der Enwicklung helfen willst.: <br/><br/>"
 	  },
 	  "devFundBlock":{
-		"title":"Karbo Entwicklerfonds",
-		"content":"Spende an diese Adresse um Karbo zu helfen"
+		"title":"PLURA Entwicklerfonds",
+		"content":"Spende an diese Adresse um PLURA zu helfen"
 	  }
 	},
 	"supportPage":{
@@ -188,7 +188,7 @@
 	  "getInTouchBlock":{
 		"title":"Nehmen wir Kontakt auf!",
 		"content":"Wenn du Ideen oder Feedback hast um die Wallet zu verbessern, kontaktiere uns!",
-		"discord":"Karbo Discord Channel"
+		"discord":"PLURA Discord Channel"
 	  }
 	},
 	"networkPage":{
@@ -234,7 +234,7 @@
 	  },
 	  "thankYouDonationModal":{
 		"title":"Danke für deine Spende!",
-		"content":"Deine Hilfe wird sehr geschätzt. <br/>Diese Spende wird helfen Karbo noch beser zu machen",
+		"content":"Deine Hilfe wird sehr geschätzt. <br/>Diese Spende wird helfen PLURA noch beser zu machen",
 		"confirmText":"Schließen"
 	  },
 	  "transferSentModal":{
@@ -313,7 +313,7 @@
 		"hashrate":"Hashrate",
 		"maxHashrate":"Max Hashrate",
 		"dedicatedHardware":"Mit spezieller Software könnetest du zwei- bis dreimal höhere Hashraten erreichen.<br/>Spezielle Software würde auch mithilfe einer Grafikkarte minen(wenn du einge Gaming GPU hast).",
-		"miningHandledBy":"Minen erfolgt über den Mining Pool get.masaricoin.com"
+		"miningHandledBy":"Minen erfolgt über den Mining Pool plurapool.com"
 	  }
 	},
 	"settingsPage":{
