@@ -805,8 +805,8 @@ body{
 	padding: 32px 40px 0 40px;
 }
 .panel .body > .content{
-	color:#7c818c;
-	line-height: 26px;
+	color:#474E5D;
+	/*line-height: 26px;*/
 	word-wrap: break-word;
 }
 .panel .body > .content .actions{
@@ -1089,13 +1089,15 @@ body{
 	display: block;
 	position: relative;
 	width: 0;
-	min-width: 2em;
-	background: #888;
+	min-width: 2em;	
+	background-color: #0bab64;
+	background-image: linear-gradient(315deg, #0bab64 0%,  #3bb78f 74%);
 	border-radius: .28571429rem;
 	-webkit-transition: width .1s ease,background-color .1s ease;
 	transition: width .1s ease,background-color .1s ease;
 	height:24px;line-height:24px;
 	color:white;
+	margin-bottom: 10px;
 }
 .progress .label{
 	display: block;
@@ -1104,4 +1106,13 @@ body{
 /* CUSTOM */
 .callToAction {
 	margin-left: 5vh;
+}
+#progress_label {
+	min-height: 2rem;
+}
+#langs {
+	margin: 10px 0px 10px 0px;
+}
+#swal2-content div {
+	margin-bottom: 15px;
 }
