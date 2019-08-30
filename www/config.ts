@@ -15,9 +15,9 @@ global.config = {
 	addressPrefix: 137,
 	integratedAddressPrefix: 137,
 	addressPrefixTestnet: 137,
-	integratedAddressPrefixTestnet: 112,
-	subAddressPrefix: 113,
-	subAddressPrefixTestnet: 113,
+	integratedAddressPrefixTestnet: 137,
+	subAddressPrefix: 137,
+	subAddressPrefixTestnet: 137,
 	coinFee: new JSBigInt('100000000'),
 	feePerKB: new JSBigInt('100000000'), //for testnet its not used, as fee is dynamic.
 	dustThreshold: new JSBigInt('100000000'),//used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
