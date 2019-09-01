@@ -266,19 +266,22 @@ if(getenv('generate') !== 'true'){
 			}
 		}
 		
+		//cloudflare specific
+		header("Cache-Control: s-maxage=600, max-age=60");
+
 		header('Content-Type: application/json');
 		echo json_encode($txForUser);
 	}
 }else{
-	$lastRunStored = @file_get_contents('./lastRun.txt');
+	/*$lastRunStored = @file_get_contents('./lastRun.txt');
 	if($lastRunStored===false)
 		$lastRunStored = 0;
 	else
 		$lastRunStored = (int)$lastRunStored;
 	
-	if($lastRunStored+1/**60*/ >= time())//concurrent run, 1min lock
+	if($lastRunStored+1/ >= time())//concurrent run, 1min lock
 		exit;
-	file_put_contents('./lastRun.txt', time());
+	file_put_contents('./lastRun.txt', time());*/
 	
 	$lastScanHeight = 0;
 	$timeStart = time();
@@ -345,7 +348,7 @@ if(getenv('generate') !== 'true'){
 		
 		$lastScanHeight = floor($blockchainHeight/100)*100;
 		
-		file_put_contents('./lastRun.txt', time());
+		//file_put_contents('./lastRun.txt', time());
 		sleep(10);
 	}
 }
