@@ -15,6 +15,7 @@ Developers:
 - cryptochangements
 - davehlong (initial adaptation of PHP Api for Bytecoin based coins)
 - aiwe (adapted for Bytecoin/CryptoNote from Monero codebase)
+- PluraDev (many code fixes and interface design)
 
 Translations:
 - English: too many people
@@ -25,6 +26,7 @@ Translations:
 - Greek: GeraltOfTrivia
 - Russian, Ukrainian: Aiwe
 - Persian: M4hdi1995
+- Czech: breakeven
 
 # Contributing
 - You can help Masari by translation the wallet in your native language, it's really easy!  
