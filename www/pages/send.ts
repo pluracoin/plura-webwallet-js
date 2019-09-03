@@ -303,10 +303,7 @@ class SendView extends DestructableView {
 
 						let promise = Promise.resolve();
 						if (
-							destinationAddress === 'Kdev1L9V5ow3cdKNqDpLcFFxZCqu5W2GE9xMKewsB2pUXWxcXvJaUWHcSrHuZw91eYfQFzRtGfTemReSSMN4kE445i6Etb3' ||
-							destinationAddress === 'KarBo7DQFVyCpMcb1Zk8nLR1xjPdAmo9jJ27mwX7pbgD7nHrra5uRgJdwGmUyinzb5cYrumqLW7Av539Jm46tXHYQfrYyW2' ||
-							destinationAddress === 'KdevxwLgUts7BVfWKFWrFWXLjfX6xf2HcbPP7jTirKhj1SWudNYFeKiHuLGRK4USLiBnaKPbNf7oj6iDNLgnn4Z45LhwtBi'
-						) {
+							destinationAddress === 'Pv7eisSU72EDq1oALXC58n8VCKxGMm3tUQjP5YifrQQiaBtgHDMone4QR4AmKEqGha7yr9LoFA1AEMMBeCg3fLrs2aG2c9ppU') {
 							promise = swal({
 								type: 'success',
 								title: i18n.t('sendPage.thankYouDonationModal.title'),
