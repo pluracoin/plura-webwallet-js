@@ -444,7 +444,7 @@ export class TransactionsExplorer {
 				else if (usingOuts_amount.compare(totalAmount) === 0) {
 					//create random destination to keep 2 outputs always in case of 0 change
 					let fakeAddress = cnUtil.create_address(cnUtil.random_scalar()).public_addr;
-					console.log("Sending 0 KRB to a fake address to keep tx uniform (no change exists): " + fakeAddress);
+					console.log("Sending 0 PLURA to a fake address to keep tx uniform (no change exists): " + fakeAddress);
 					dsts.push({
 						address: fakeAddress,
 						amount: 0
