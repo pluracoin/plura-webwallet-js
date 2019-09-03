@@ -203,7 +203,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Send KRB",
+	  "title":"Send PLURA",
 	  "sendBlock":{
 		"address":{
 		  "label":"Destination address",
@@ -271,7 +271,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Receive KRB",
+	  "title":"Receive PLURA",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Your address to receive funds:",
@@ -299,7 +299,7 @@
 	},
 	"miningPage":{
 	  "title":"Mine directly in your browser",
-	  "subtitle":"Support the network by mining and be rewarded with KRB",
+	  "subtitle":"Support the network by mining and be rewarded with PLURA",
 	  "parameterBlock":{
 		"title":"Parameters",
 		"labelDestinationAddress":"Wallet to mine",

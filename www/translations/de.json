@@ -203,7 +203,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Schicke KRB",
+	  "title":"Schicke PLURA",
 	  "sendBlock":{
 		"address":{
 		  "label":"Zieladresse",
@@ -271,7 +271,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Empfange KRB",
+	  "title":"Empfange PLURA",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Deine Adresse um Guthaben zu empfangen",
@@ -299,7 +299,7 @@
 	},
 	"miningPage":{
 	  "title":"Mine direkt in deinem Browser",
-	  "subtitle":"Unterstütze das Netzwerk für mehr Stabilität und werde mit KRB belohnt",
+	  "subtitle":"Unterstütze das Netzwerk für mehr Stabilität und werde mit PLURA belohnt",
 	  "parameterBlock":{
 		"title":"Parameter",
 		"labelDestinationAddress":"Wallet für die gemined werden soll",

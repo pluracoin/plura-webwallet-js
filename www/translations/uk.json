@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Ризики використання KarboWallet",
-		"content":"KarboWallet це веб-інтерфейс. Він допомагає вам використовувати PLURA без необхідності тримати повний вузол мережі PLURA. <br/>Ми рекомендуємо ставитися до KarboWallet з усією серйозністю, як до вашого гаманця."
+		"title":"Ризики використання PLURA Wallet",
+		"content":"PLURA Wallet це веб-інтерфейс. Він допомагає вам використовувати PLURA без необхідності тримати повний вузол мережі PLURA. <br/>Ми рекомендуємо ставитися до PLURA Wallet з усією серйозністю, як до вашого гаманця."
 	  }
 	},
 	"donatePage":{
@@ -188,7 +188,7 @@
 	  "getInTouchBlock":{
 		"title":"Зв'яжіться з нами!",
 		"content":"Є ідеї або побажання щодо поліпшення гаманця? Напишіть нам!",
-		"discord":"Канал Karbo в Discord"
+		"discord":"Канал PLURA в Discord"
 	  }
 	},
 	"networkPage":{
@@ -313,7 +313,7 @@
 		"hashrate":"Хешрейт",
 		"maxHashrate":"Макс. Хешрейт",
 		"dedicatedHardware":"Майнінг допомагає в децентралізації мережі і дозволяє вам заробити PLURA.",
-		"miningHandledBy":"Майнінг проходить на пулі pool.karbowanec.com"
+		"miningHandledBy":"Майнінг проходить на пулі plurapool.com"
 	  }
 	},
 	"settingsPage":{
