@@ -261,7 +261,8 @@ body.transparent #copyright{
 }
 
 #accountTransactions {
-	padding: 10px 35px;
+	/*padding: 10px 35px;*/
+	padding: 10px 15px;
 }
 
 .transactions .transaction{
@@ -738,15 +739,15 @@ body{
 }
 
 .body-root{
-	padding:0 30px;
+	padding:20px 15px 20px 15px;
 	min-height: 80vh;
 }
 .body-header {
 	display: table;
 	width: 100%;
-	margin-top: 36px;
-	padding-bottom: 20px;
-	border-bottom: 1px solid #D6DDED;
+	margin-top: 15px;
+	/*padding-bottom: 20px;*/
+	/*border-bottom: 1px solid #D6DDED;*/
 }
 .body-header .header-title {
 	font-size: 26px;
@@ -776,7 +777,8 @@ body{
 .panel{
 	background: #FFF;
 	border-radius: 5px;
-	padding: 32px 40px 32px 40px;
+	/*padding: 32px 40px 32px 40px;*/
+	padding: 20px 15px 20px 15px;
 	margin-bottom: 30px;
 	-webkit-box-shadow: 0 10px 25px 0 #DFE3EC;
 	box-shadow: 0 10px 25px 0 #DFE3EC;
@@ -802,7 +804,8 @@ body{
 	margin-bottom: 22px;
 }
 .panel.nopadding .header-title{
-	padding: 32px 40px 0 40px;
+	/*padding: 32px 40px 0 40px;*/
+	padding: 15px;
 }
 .panel .body > .content{
 	color:#474E5D;
@@ -1115,4 +1118,10 @@ body{
 }
 #swal2-content div {
 	margin-bottom: 15px;
+}
+.fa-level-down {
+	color: #6bc534;
+}
+.fa-level-uop {
+	color: red;
 }
