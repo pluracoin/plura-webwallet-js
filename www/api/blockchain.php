@@ -236,7 +236,7 @@ function saveCache($startHeight, $endHeight, $content){
 }
 
 if(getenv('generate') !== 'true'){
-	if(!is_int($_GET['height']+0)){
+	if(!is_int(trim($_GET['height'])+0)){
 		http_response_code(400);
 		exit;
 	}
