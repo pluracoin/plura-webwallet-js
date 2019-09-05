@@ -146,7 +146,8 @@ export class WalletRepository{
 		let doc = new jsPDF('landscape');
 
 		//creating background
-		doc.setFillColor(48,70,108);
+		//doc.setFillColor(48,70,108);
+		doc.setFillColor(255,255,255);
 		doc.rect(0,0,297,210, 'F');
 
 		//white blocks
@@ -155,11 +156,13 @@ export class WalletRepository{
 		doc.rect(10,115,80,80, 'F');
 
 		//blue blocks
-		doc.setFillColor(0, 160, 227);
+		//doc.setFillColor(0, 160, 227);
+		doc.setFillColor(35, 176, 230);
 		doc.rect(108,115,80,80, 'F');
 
 		//blue background for texts
-		doc.setFillColor(0, 160, 227);
+		//doc.setFillColor(0, 160, 227);
+		doc.setFillColor(35, 176, 230);
 
 		doc.rect(108,15,80,20, 'F');
 		doc.rect(10,120,80,20, 'F');
@@ -170,7 +173,7 @@ export class WalletRepository{
 		doc.text(123,30, "Private key");
 
 		//lines
-		doc.setDrawColor(255,255,255);
+		doc.setDrawColor(0,0,0);
 		doc.setLineWidth(1);
 		doc.line(99,0,99,210);
 		doc.line(198,0,198,210);
@@ -184,11 +187,11 @@ export class WalletRepository{
 		doc.setTextColor(255, 255, 255);
 		doc.setFontSize(10);
 		doc.text(110, 120, "To deposit funds to this paper wallet, send ");
-		doc.text(110, 125, "Karbo to the public address");
+		doc.text(110, 125, "PLURA to the public address");
 
 		doc.text(110, 135, "DO NOT REVEAL THE PRIVATE KEY");
 
-		//adding karbo logo
+		//adding PLURA logo
 		let c : HTMLCanvasElement|null = <HTMLCanvasElement>document.getElementById('canvasExport');
 		if(c !== null) {
 			let ctx = c.getContext("2d");
@@ -205,7 +208,7 @@ export class WalletRepository{
 		}
 
 		try {
-			doc.save('keys.pdf');
+			doc.save('PLURA_wallet_keys.pdf');
 		} catch(e) {
 			alert('Error ' + e);
 		}
