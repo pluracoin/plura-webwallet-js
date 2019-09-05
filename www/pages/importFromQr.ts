@@ -54,7 +54,8 @@ class ImportView extends DestructableView{
 		if(!(this.password !== '' && (!this.insecurePassword || this.forceInsecurePassword)))
 			return false;
 
-		if(!(this.privateSpendKey !== null || this.mnemonicSeed !== null || (this.publicAddress !== null && this.privateViewKey !== null)))
+		//if(!(this.privateSpendKey !== null || this.mnemonicSeed !== null || (this.publicAddress !== null && this.privateViewKey !== null)))	
+		if(!(this.privateSpendKey !== null || this.mnemonicSeed !== null || this.privateViewKey !== null))
 			return false;
 
 		return true;
