@@ -241,10 +241,10 @@ if(getenv('generate') !== 'true'){
 		http_response_code(400);
 		exit;
 	}*/
-	if(!is_int((int)$_GET['height'])){
+	/*if(!is_int((int)$_GET['height'])){
 		http_response_code(400);
 		exit;
-	}
+	}*/
 	$startHeight = (int)$_GET['height'];
 	$realStartHeight = $startHeight;
 	$startHeight = floor($startHeight/100)*100;
