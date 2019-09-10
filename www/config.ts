@@ -13,11 +13,11 @@ global.config = {
 	txMinConfirms: 10,         
 	txCoinbaseMinConfirms: 10,
 	addressPrefix: 137,
-	integratedAddressPrefix: 137,
+	integratedAddressPrefix: 138,
 	addressPrefixTestnet: 137,
-	integratedAddressPrefixTestnet: 137,
-	subAddressPrefix: 137,
-	subAddressPrefixTestnet: 137,
+	integratedAddressPrefixTestnet: 138,
+	subAddressPrefix: 139,
+	subAddressPrefixTestnet: 139,
 	coinFee: new JSBigInt('100000000'),
 	feePerKB: new JSBigInt('100000000'), //for testnet its not used, as fee is dynamic.
 	dustThreshold: new JSBigInt('100000000'),//used for choosing outputs/change - we decompose all the way down if the receiver wants now regardless of threshold
@@ -27,7 +27,7 @@ global.config = {
 	idleWarningDuration: 20,
 
 	coinSymbol: 'PLURA',
-	openAliasPrefix: "plura",
+	openAliasPrefix: 'plura',
 	coinName: 'PluraCoin',
 	coinUriPrefix: 'pluracoin:',
 	avgBlockTime: 120,
