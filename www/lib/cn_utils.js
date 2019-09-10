@@ -505,13 +505,15 @@ var cnUtil = (function(initConfig) {
 	};
 
 	this.decode_address = function(address) {
+		console.log('address = ' + address);
 		var dec = cnBase58.decode(address);
-		console.log(dec,CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX,CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX);
+		console.log('dec=' + dec + ', CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX=' + CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX + ', CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX=' + CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX);
 		var expectedPrefix = this.encode_varint(CRYPTONOTE_PUBLIC_ADDRESS_BASE58_PREFIX);
 		var expectedPrefixInt = this.encode_varint(CRYPTONOTE_PUBLIC_INTEGRATED_ADDRESS_BASE58_PREFIX);
 		var expectedPrefixSub = this.encode_varint(CRYPTONOTE_PUBLIC_SUBADDRESS_BASE58_PREFIX);
+		console.log('expected prefix length = ' + expectedPrefix.length);
 		var prefix = dec.slice(0, expectedPrefix.length);
-		console.log(prefix,expectedPrefixInt,expectedPrefix);
+		console.log('prefix=' + prefix + ', expectedPrefixInt=' + expectedPrefixInt + ', expectedPrefix=' + expectedPrefix);
 		if (prefix !== expectedPrefix && prefix !== expectedPrefixInt && prefix !== expectedPrefixSub) {
 			throw "Invalid address prefix";
 		}

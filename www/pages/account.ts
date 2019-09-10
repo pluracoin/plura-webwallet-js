@@ -89,7 +89,7 @@ class AccountView extends DestructableView{
 		});
 	}
 
-	refreshWallet(){
+	refreshWallet(){		
 		this.currentScanBlock = wallet.lastHeight;
 		this.walletAmount = wallet.amount;
 		this.unlockedWalletAmount = wallet.unlockedAmount(this.currentScanBlock);

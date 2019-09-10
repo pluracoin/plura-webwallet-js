@@ -36,7 +36,7 @@
 						<label>Identifier (optional)</label>
 						<input type="text" v-model="paymentId" maxlength="8"/>
 					</div>-->
-					<div class="actions" >
+					<div class="" >
 						<button class="btn primary" @click="generateQrCode()" >{{ $t("receivePage.receiveBlock.qrCode.updateButton") }}</button>
 					</div>
 				</div>
@@ -44,7 +44,7 @@
 		</div>
 
 		<img src="./assets/img/logoQrCode.png" id="qrCodeLogo" style="display: none;"/>
-		<div class="panel inline">
+		<div class="panel">
 			<div class="body" >
 				<div class="header-title" >{{ $t("receivePage.qrBlock.title") }}</div>
 				<div class="content" >
@@ -55,7 +55,7 @@
 			</div>
 		</div>
 
-		<div class="panel inline" v-if="hasNfc && hasWritableNfc">
+		<div class="panel" v-if="hasNfc && hasWritableNfc">
 			<div class="body" >
 				<div class="header-title" >Nfc</div>
 				<div class="content" >

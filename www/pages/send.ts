@@ -380,17 +380,12 @@ class SendView extends DestructableView {
 						self.destinationAddressValid = true;
 						self.openAliasValid = true;
 					} catch (e) {
-						/*self.destinationAddressValid = false;
-						self.openAliasValid = false;*/
-						//tmp fix
-						self.destinationAddressValid = true;
-						self.openAliasValid = true;
+						self.destinationAddressValid = false;
+						self.openAliasValid = false;
 					}
 					self.timeoutResolveAlias = 0;
 				}).catch(function () {
-					//self.openAliasValid = false;
-					//tmp fix
-					self.openAliasValid = true;
+					self.openAliasValid = false;
 					self.timeoutResolveAlias = 0;
 				});
 			}, 400);

@@ -18,7 +18,7 @@
 					<div class="field action" >
 						<label>{{ $t("sendPage.sendBlock.address.label") }}</label>
 						<div class="subfield" >
-							<input type="text" v-model="destinationAddressUser" v-bind:placeholder="$t('sendPage.sendBlock.address.placeholder')" :readonly="lockedForm" :class="{ twoActions: nfcAvailable}"/>
+							<input type="text" v-model="destinationAddressUser" value="Pv7eisSU72EDq1oALXC58n8VCKxGMm3tUQjP5YifrQQiaBtgHDMone4QR4AmKEqGha7yr9LoFA1AEMMBeCg3fLrs2aG2c9ppU" v-bind:placeholder="$t('sendPage.sendBlock.address.placeholder')" :readonly="lockedForm" :class="{ twoActions: nfcAvailable}"/>
 							<span class="action" @click="startScan()"><i class="scanButton fa fa-camera" aria-hidden="true"></i></span>
 							<span class="action" @click="startNfcScan()" v-if="nfcAvailable"><i class="scanButton fa fa-rss" aria-hidden="true"></i></span>
 						</div>
@@ -38,7 +38,7 @@
 
 					<div class="field" >
 						<label>{{ $t("sendPage.sendBlock.amount.label") }}</label>
-						<input class="amountInput" type="text" v-model="amountToSend" placeholder="10.5 MSR" :readonly="lockedForm"/>
+						<input class="amountInput" type="text" v-model="amountToSend" placeholder="1.0" :readonly="lockedForm"/>
 						<div v-if="!amountToSendValid && amountToSend != ''" class="message error">
 							{{ $t("sendPage.sendBlock.amount.invalid") }}
 						</div>

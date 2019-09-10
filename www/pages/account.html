@@ -49,7 +49,7 @@
 									<td class="timestamp" v-else="">{{ $t("accountPage.historyBlock.pendingTxStatus") }}...</td>
 									<td :class="'amount '+(transaction.getAmount() > 0 ? 'more' : 'less')" >{{ transaction.getAmount() / currencyDivider }}</td>
 									<td class="moreInfo">
-										<i class="fa fa-search" aria-hidden="true" @click="moreInfoOnTx(transaction)"></i>
+										<i class="fa fa-info-circle grey" aria-hidden="true" @click="moreInfoOnTx(transaction)"></i>
 									</td>
 								</tr>
 								<tr v-if="transaction.paymentId !== ''">
