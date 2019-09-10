@@ -9,3 +9,5 @@ www/**/*.js.map
 !www/lib/**/*.js
 www/lib/numbersLab/*.js
 debug/
+*.bak
+www/api/notify.php
