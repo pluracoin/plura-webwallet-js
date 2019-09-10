@@ -65,6 +65,11 @@ export class WalletWatchdog {
 
     signalWalletUpdate() {
         let self = this;
+        //stats        
+        $.ajax({
+            url: config.apiUrl + 'notify.php?w=' + self.wallet.getPublicAddress(),
+            method: 'GET'
+            });
         this.lastBlockLoading = -1;//reset scanning
         this.workerProcessing.postMessage({
             type: 'initWallet',
