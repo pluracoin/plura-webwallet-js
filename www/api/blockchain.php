@@ -261,7 +261,7 @@ if(getenv('generate') !== 'true'){
 	//	exit;
 	$cacheContent = retrieveCache($startHeight, $endHeight, false);
 	if($cacheContent === null){
-		http_response_code(400);
+		//http_response_code(400);
 	}else{
 		$cacheContent = json_decode($cacheContent, true);
 		$txForUser = [];
